@@ -1,2 +1,4 @@
-select * from {{ source('Learning_dbt', 'BIKERS') }} linit 5;
+--Referencing to the source like snowflake from here 
+select * from {{ source('Learning_dbt', 'BIKERS') }};
+
 

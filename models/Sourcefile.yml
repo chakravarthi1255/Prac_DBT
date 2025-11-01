@@ -6,4 +6,3 @@ sources:
     schema: PETSCHEMA
     tables:
       - name: BIKERS
-      
